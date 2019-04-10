@@ -6,26 +6,31 @@
     <title>Pexels</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 </head>
 
 <body>
-    <div class="main-header">
-        <a href="index.html"><img src="pexels.png" height="50" width="80"></a> <br><br>
-        <form method="GET">
-            <p>Search Images:</p>
-            <input type="text" required name="Search" placeholder="Enter keyword">
-            <input type="submit" name="submit" value="GO">
-        </form>
-        <div class="container">
-            <button class="prev">prev</button>
-            <button class="next">next</button>
-            <div class="active"></div>
-            <div></div>
-            <div></div>
+    <center>
+        <div class="main-header, jumbotron">
+            <a href="index.html"><img src="pexels.png" height="50" width="80"></a> <br><br>
+            <div>
+                <form method="GET">
+                    <p>Search Images:</p>
+                    <input type="text" required name="Search" style="width: 350px; " placeholder="Enter keyword">
+                    <input type="submit" name="submit" value="Search">
+                </form>
+            </div>
+            <div class="container" style="padding-top: 20px;">
+                <button class="prev">Previous</button>
+                <button class="next">Next</button>
+                <div class="active"></div>
+                <div></div>
+                <div></div>
+            </div>
         </div>
-    </div>
 
-    </div>
+        </div>
+    </center>
 </body>
 <script src="main.js"></script>
 
