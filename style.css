@@ -1,1 +1,13 @@
-.main-header {}
+.container img {
+    display: block;
+    width: 400px;
+    margin: 10px auto;
+}
+
+.container div {
+    display: none;
+}
+
+.container div.active {
+    display: block;
+}
